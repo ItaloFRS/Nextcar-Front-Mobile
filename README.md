@@ -127,13 +127,17 @@ A partir disso você poderá:
 
 ---
 
+## 👨‍💻 Autores
 
-## 👨‍💻 Autor
+✨ Italo Farias
 
-**Italo de Farias**
-Desenvolvedor Full Stack
+- 💼 Desenvolvedor Full Stack
 
-* GitHub: [https://github.com/ItaloFRS](https://github.com/ItaloFRS)
+- 🌎 Campina Grande – PB, Brasil
+
+- 🐙 GitHub: @ItaloFRS
+
+- 💡 Responsável pela arquitetura, desenvolvimento e manutenção do projeto
 
 ---
 
