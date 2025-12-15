@@ -1,7 +1,7 @@
 # 📱 Nextcar Front Mobile
 
 <p align="center">
-  <img src="./assets/images/logo.png" alt="Logo-Dark-Mobile.png" width="200" />
+  <img src="assets/images/Logo-Dark-Mobile.png" alt="Logo-Dark-Mobile.png" width="200" />
 </p>
 
 ## 🚗 Sobre o Projeto
