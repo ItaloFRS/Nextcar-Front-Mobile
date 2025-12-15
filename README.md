@@ -1,50 +1,147 @@
-# Welcome to your Expo app 👋
+# 📱 Nextcar Front Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  <img src="./assets/images/logo.png" alt="Nextcar Mobile Logo" width="200" />
+</p>
 
-## Get started
+## 🚗 Sobre o Projeto
 
-1. Install dependencies
+O **Nextcar Front Mobile** é a aplicação mobile do ecossistema **Nextcar**, desenvolvida para dispositivos **Android e iOS**, com foco na visualização, navegação e interação com anúncios de veículos.
 
-   ```bash
-   npm install
-   ```
+O aplicativo foi construído utilizando **React Native com Expo**, garantindo produtividade no desenvolvimento, boa performance e compatibilidade multiplataforma. Ele consome dados fornecidos pelo backend do projeto Nextcar, permitindo uma experiência fluida e moderna ao usuário final.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🧩 Ecossistema Nextcar
 
-In the output, you'll find options to open the app in a
+Este projeto faz parte de um sistema maior:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* 🌐 **Nextcar Front Web** – Aplicação web em React
+* ⚙️ **Nextcar Back-End** – API REST em Spring Boot
+* 📱 **Nextcar Front Mobile** – Aplicativo mobile (este repositório)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🛠️ Tecnologias Utilizadas
 
-When you're ready, run:
+* **React Native** – Desenvolvimento mobile multiplataforma
+* **Expo** – Ambiente de desenvolvimento e build
+* **TypeScript** – Tipagem estática e maior segurança
+* **ESLint** – Padronização e qualidade de código
+* **Expo Router / Navigation** – Navegação entre telas
 
-```bash
-npm run reset-project
+---
+
+## ✨ Funcionalidades
+
+* ✔️ Navegação entre telas
+* ✔️ Componentes reutilizáveis
+* ✔️ Hooks personalizados
+* ✔️ Estrutura modular e organizada
+* ✔️ Suporte para Android e iOS
+* ✔️ Integração com API externa (backend Nextcar)
+
+---
+
+## 📁 Estrutura de Pastas
+
+```
+.
+├── app/                 # Telas e rotas da aplicação
+├── assets/              # Imagens, ícones e fontes
+│   └── images/
+├── components/          # Componentes reutilizáveis
+├── constants/           # Constantes globais
+├── hooks/               # Hooks personalizados
+├── scripts/             # Scripts auxiliares
+├── .vscode/             # Configurações do VSCode
+├── package.json
+├── tsconfig.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🚀 Como Executar o Projeto
 
-To learn more about developing your project with Expo, look at the following resources:
+### Pré-requisitos
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+* Node.js (versão LTS recomendada)
+* npm ou yarn
+* Expo CLI (opcional)
+* Android Studio ou Expo Go (para testes em dispositivo físico)
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+### 1️⃣ Clonar o repositório
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+git clone https://github.com/ItaloFRS/Nextcar-Front-Mobile.git
+cd Nextcar-Front-Mobile
+```
+
+---
+
+### 2️⃣ Instalar as dependências
+
+```bash
+npm install
+```
+
+ou
+
+```bash
+yarn install
+```
+
+---
+
+### 3️⃣ Executar o projeto
+
+```bash
+npx expo start
+```
+
+A partir disso você poderá:
+
+* Abrir no **emulador Android**
+* Abrir no **emulador iOS** (macOS)
+* Escanear o QR Code usando o **Expo Go** no celular
+
+---
+
+## 📜 Scripts Disponíveis
+
+| Comando           | Descrição                   |
+| ----------------- | --------------------------- |
+| `npm start`       | Inicia o Expo Dev Tools     |
+| `npm run android` | Executa no emulador Android |
+| `npm run ios`     | Executa no emulador iOS     |
+| `npm run web`     | Executa no navegador        |
+
+---
+
+## 📸 Telas do Aplicativo
+
+> 📌 Recomenda-se adicionar aqui screenshots ou GIFs das principais telas do app para enriquecer a documentação.
+
+---
+
+
+## 👨‍💻 Autor
+
+**Italo de Farias**
+Desenvolvedor Full Stack
+
+* GitHub: [https://github.com/ItaloFRS](https://github.com/ItaloFRS)
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT**.
+Sinta-se livre para usar, modificar e distribuir.
+
+---
+
+✨ Projeto desenvolvido para fins acadêmicos e de portfólio. Feedbacks são sempre bem-vindos!
